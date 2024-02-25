@@ -1,4 +1,29 @@
-  /* here is my comment */
+ /* here is my comment */
 		  h1 {color: green;}
 		  p {color: red; font-weight: 1000; font-style: italic; font-family: sans-serif; font-decoraction: underline;}
 		  a {color: brown; text-decoration: underline}
+		  
+		  .h1_style {
+			  padding-left: 500px;
+			  padding-top: 50px;
+			  padding-bottom: 100px;
+		  }
+		  
+		  .img_1_style {
+			  margin-left: 60px;
+		  }
+		  
+		  .img_2_style {
+			  margin-top: 30px;
+			  margin-bottom: 30px;
+			  margin-left: 100px;
+		  }
+		  
+		  .para_1_style {
+			  color: #00FF00;
+			  font-size: 25px;
+		  }
+		  
+		  .para_2_style {
+			  color: rgba(255, 165, 0, 100%);
+		  }
