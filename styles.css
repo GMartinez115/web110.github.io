@@ -7,23 +7,69 @@
 			  padding-left: 500px;
 			  padding-top: 50px;
 			  padding-bottom: 100px;
+			  
 		  }
 		  
 		  .img_1_style {
 			  margin-left: 60px;
+			  width: 200px;
 		  }
 		  
 		  .img_2_style {
 			  margin-top: 30px;
 			  margin-bottom: 30px;
 			  margin-left: 100px;
+			  width: 300px;
 		  }
 		  
 		  .para_1_style {
 			  color: #00FF00;
 			  font-size: 25px;
+			  border: solid 10px purple;
 		  }
 		  
 		  .para_2_style {
 			  color: rgba(255, 165, 0, 100%);
+			  border-bottom: dashed 10px brown;
+			  margin: 50px;
+		  }
+		  
+		  .top {
+			  height: 100px;
+		  }
+		  
+		  .middle {
+			  height: 1300px;
+		  }
+		  
+		  .bottom {
+			  height: 700px;
+		  }
+		  
+		  .header{
+			  border: 1px solid black;
+		  }
+		  
+		  .nav {
+			  border: 1px solid black;
+		  }
+		  
+		  .article {
+			  float: left;
+			  min-width: 200px;
+			  min-height: 300px;
+			  border: 1px solid black;
+			  
+		  }
+		  
+		  .section {
+			  border: 1px solid black;
+		  }
+		  
+		  .aside {
+			  float: left;
+			  min-width: 50%;
+			  min-height: 243px;
+			  border: 1px solid black;
+			  
 		  }
