@@ -1,4 +1,4 @@
-/* here is my comment */
+ /* here is my comment */
 		  h1 {color: green;}
 		  p {color: red; font-weight: 1000; font-style: italic; font-family: sans-serif; font-decoraction: underline;}
 		  a {color: brown; text-decoration: underline}
@@ -81,19 +81,23 @@
 		  }
 		  
 		  table {
-			  border: solid black 5px;
+			  
+			  border: solid black 2px;
+			  border-collapse: collapse;
 			  margin-left: auto;
 			  margin-right: auto;
 		  }			
 
 			th {
+				border: solid black 2px;
 				background-color: green;
 			}
 		  
 		  td {	 
-		text-align: center;
-		padding: 25px;
-		width: 100px;
+			border: solid black 2px;
+			text-align: center;
+			padding: 25px;
+			width: 100px;
 		 }
 		 
 		 video {
