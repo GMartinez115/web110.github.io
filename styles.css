@@ -1,13 +1,11 @@
- /* here is my comment */
+/* here is my comment */
 		  h1 {color: green;}
 		  p {color: red; font-weight: 1000; font-style: italic; font-family: sans-serif; font-decoraction: underline;}
 		  a {color: brown; text-decoration: underline}
 		  
-		  .h1_style {
-			  padding-left: 500px;
+		  .h1_style {	  
 			  padding-top: 50px;
-			  padding-bottom: 100px;
-			  
+			  text-align: center;
 		  }
 		  
 		  .img_1_style {
@@ -43,7 +41,7 @@
 		   }
 		  
 		  .top {
-			  height: 100px;
+			  height: 150px;
 		  }
 		  
 		  .middle {
@@ -102,4 +100,9 @@
 			 width: 500px;
 			 display: block;
 		     margin: 0 auto;
+		 }
+		 
+		 .links_1 {
+			 text-align: center; 
+			 font-size: 25px;
 		 }
