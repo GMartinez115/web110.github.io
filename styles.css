@@ -3,8 +3,14 @@
 		  p {color: red; font-weight: 1000; font-style: italic; font-family: sans-serif; font-decoraction: underline;}
 		  a {color: brown; text-decoration: underline}
 		  
+		  
+		  .color {
+			  background-color: green;
+		  }
+		  
 		  .h1_style {	  
 			  padding-top: 50px;
+			  padding-bottom: 50px;
 			  text-align: center;
 		  }
 		  
@@ -13,6 +19,7 @@
 			  width: 250px;
 			  display: block;
 			  margin: auto;
+			  border-radius: 15px;
 		  }
 		  
 		  .img_2_style {
@@ -41,47 +48,70 @@
 		   }
 		  
 		  .top {
-			  height: 150px;
+			  background-color: darkgray;
+			  border-radius: 15px;
 		  }
 		  
 		  .middle {
-			  height: 1300px;
+			  background-color: darkgray;
+			  border-radius: 15px;
 		  }
 		  
 		  .bottom {
-			  height: 500px;
+			   background-color: darkgray;
+			   border-radius: 15px;
 		  }
 		  
 		  .header{
 			  border: 1px solid black;
+			  border-radius: 15px;
 		  }
 		  
 		  .nav {
 			  border: 1px solid black;
+			  border-radius: 15px;
+		  }
+		  
+		  .red_circle {
+			  width: 200px;
+			  height:200px;
+			  background: radial-gradient(crimson, orange, green);
+			  border-radius: 50%;
+			  border: 5px dashed black;
+			  text-align: center;
+			  
 		  }
 		  
 		  .article {
-			  float: left;
+			  float: left; 
 			  min-width: 200px;
 			  min-height: 300px;
 			  border: 1px solid black;
+			  border-radius: 15px;
 			  
 		  }
 		  
 		  .section {
 			  border: 1px solid black;
+			  border-radius: 15px;
 		  }
 		  
 		  .aside {
-			  float: left;
+			/**  float: left; **/
 			  min-width: 50%;
 			  min-height: 243px;
 			  border: 1px solid black;
-			  
+			  border-radius: 15px;
 		  }
+			  
+			.footer {
+				border: 1px solid black;
+				border-radius: 15px;
+			
+			}
+			  
 		  
 		  table {
-			  
 			  border: solid black 2px;
 			  border-collapse: collapse;
 			  margin-left: auto;
@@ -108,5 +138,10 @@
 		 
 		 .links_1 {
 			 text-align: center; 
+			 right: 20px;position:relative;
 			 font-size: 25px;
+		 }
+		 
+		 .pad_1 {
+			 left: 40px;position:relative;
 		 }
