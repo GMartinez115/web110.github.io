@@ -22,21 +22,54 @@
 	 
 
 	<div class="input">
+	
 	 <label>First Name</label>
 	 <input type="text">
-	 <input type="submit"><br /><br />
+	 <input type="submit"><br><br>
 
-	 <input type="password"> (Password)<br /><br />
-	 <input type="checkbox" id="checkbox_1"><label for="checkbox_1">(Checkbox)</label><br /><br />
-	 <input type="date"> (Date)<br /><br />
-	 <input type="file"> (File)<br /><br />
-	 <input type="range"> (Range)<br /><br />
+	 <label>Password</label>
+	 <input type="password"><br><br>
+	 <input type="checkbox" id="checkbox_1"><label for="checkbox_1">(Checkbox)</label><br><br>
+	 <input type="date"> (Date)<br><br>
+	 <input type="file"> (File)<br><br>
+	 <input type="range"> (Range)<br><br>
 	 </div>
 	 
-   
-   <p class="links_1">
-	 <a href="index.html">Page 1</a> <a class="pad_1" href="index2.html">Page 2</a>
-	</p>
+	 <div class="form_bg">
+	 
+	 <form action="server_script.php">
+	 <label for="user_fname">First Name</label>
+	 <input type="text" id="user_fname" name="fname"><br><br>
+	 
+	 <label for="user_lname">last Name</label>
+	 <input type="text" id="user_lname" name="lname"><br>
+	 
+	 <label for="ccn">Credit card #</label>
+	 <input type="number" id="ccn" name="credit_card_number"><br>
+	 
+	 <label for="ccv">CCV#</label>
+	 <input type="number" maxlength="3" id="ccv" name="ccv_number"><br>
+	 
+	 <label for="ul_file">Resume (PDF)</label>
+	 <input type="file" accept=".pdf, .docx, .doc, .text" id="ul_file" name="u_file"><br>
+	 
+	 <textarea id="site_comment" name="link_comment" rows="4" cols="50"></textarea><br>
+	 
+	 <label for="date_time">
+	 <input type="date">
+	 
+	 <input type="submit" id="sbmt" name="submit_form" value="Submit">
+	 </form>
+	  
+	</div>
+	
+	 <p class="links_1">
+	 <a class="links_2" href="https://en.wikipedia.org/wiki/Turtle" target="_blank" >Here is a link for more information on turtles</a>
+     </p>
+   <div class="links_1">
+	 <a class="links_2" href="index.html">Page 1</a> 
+	 <a class="pad_1" href="index2.html">Page 2</a>
+	</div>
    
    
    
