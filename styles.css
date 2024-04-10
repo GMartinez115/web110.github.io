@@ -176,13 +176,53 @@
 		 
 		 .form_bg {
 			 Background-color: #FFFFFFCC;
-			 backgrond-color: rgba (255, 255, 255, 80%);
+			 background-color: rgba (255, 255, 255, 80%);
 		 }
 		 
 		 button:focus {
-	    	 border: 3px solid red;
+	     border: 3px solid red;
 		}
 
 		input:focus {
 		border: 3px solid red;
+		}
+		
+		.player {
+			background-color: black;
+			width: 50%;
+			height: 400px;
+			border: solid white 2px;
+			margin: auto;
+		}
+		
+		.play_btn {
+			color: red;
+			font-size: 50px;	
+		}
+		
+		.play_btn:hover {
+			color: blue;
+			font-size: 45px;
+		}
+		
+		.vol_btn {
+			color: red;
+			font-size: 50px;	
+		}
+		
+		.vol_btn:hover {
+			color: blue;
+			font-size: 45px;
+		}
+		
+		.space {
+			margin-bottom: 335px;
+		}
+		
+		.bar {
+			border: solid white 2px;
+			min-width: 450px;
+			min-height: 4px;
+			float: right;
+			margin: 25px;
 		}
