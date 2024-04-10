@@ -105,7 +105,7 @@
 			.footer {
 				border: 1px solid black;
 				border-radius: 15px;
-				background-image: url("images/tile.jpg");
+				background-image: url("tile.jpg");
 				background-size: 25%;
 				background-repeat: /**repeat-y**/;
 			}
