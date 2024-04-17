@@ -1,7 +1,7 @@
- /* here is my comment */
+/** here is my comment **/
 		  h1 {color: green;}
 		  p {color: black; font-weight: 1000; font-style: italic; font-family: sans-serif; font-decoraction: underline;}
-		  a {color: red; text-decoration: underline}
+		  /**a {color: red; text-decoration: underline}**/
 		  div {color: black; font-weight: 1000; font-style: italic; font-family: sans-serif; font-decoraction: underline;}
 		  
 		  .color {
@@ -20,6 +20,11 @@
 			  display: block;
 			  margin: auto;
 			  border-radius: 15px;
+			  transition: width 4s ease-in-out;
+		  }
+		  
+		  .img_1_style:hover {
+			  width: 450px;
 		  }
 		  
 		  .img_2_style {
@@ -73,14 +78,21 @@
 		  }
 		  
 		  .red_circle {
-			  width: 200px;
-			  height:200px;
-			  background: radial-gradient(crimson, orange, green);
+			  width: 100px;
+			  height:100px;
+			  /**background: radial-gradient(crimson, orange, green);**/
+			  Background-color: yellow;
 			  border-radius: 50%;
 			  border: 5px dashed black;
 			  text-align: center;
+			  transition: Background-color 2s, width 2s, height 2s;
 		  }
 		  
+		  .red_circle:hover {
+			  Background-color: red;
+			  width: 90px;
+			  height: 90px;
+		  }
 		  .article {
 			  float: left; 
 			  min-width: 200px;
@@ -105,7 +117,7 @@
 			.footer {
 				border: 1px solid black;
 				border-radius: 15px;
-				background-image: url("tile.jpg");
+				background-image: url("images/tile.jpg");
 				background-size: 25%;
 				background-repeat: /**repeat-y**/;
 			}
@@ -140,22 +152,55 @@
 			 text-align: center; 
 			 right: 20px;position:relative;
 			 font-size: 25px;
+			 /**transition: color 3s;**/
 		 }
 		 
-		 .links_2:visited {
+		 /**@keyframes animate {
+			 from {
+				 color: yellow;
+			 }
+			 to {
+				 color: red;
+			 }
+		 }**/
+		 
+		  @keyframes animate {
+			 0% {
+				 color: red;
+			 }
+			 20% {
+				 color: orange;
+			 }
+			 40% {
+				 color: yellow;
+			 }
+			 60% {
+				 color: purple;
+			 }
+			 80% {
+				 color: blue;
+			 }
+			 100% {
+				 color: red;
+			 }
+		 }
+		 
+		 .links_1:visited {
 			 color: purple;
 		 }
 		 
-		 .links_2:hover {
-			 color: blue;
+		 .links_1:hover {
+			 /**color: blue;**/
+			 animation: animate 2s;
 		 }
 		 
-		 .links_2:active {
+		 .links_1:active {
 			 border: 3px solid crimson;
 		 }
 		 
 		 .pad_1 {
 			 left: 40px;position:relative;
+			 transition: color 3s;
 		 }
 		 
 		 .pad_1:visited {
@@ -197,7 +242,8 @@
 		
 		.play_btn {
 			color: red;
-			font-size: 50px;	
+			font-size: 50px;
+			transition: color 4s;
 		}
 		
 		.play_btn:hover {
